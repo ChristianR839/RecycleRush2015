@@ -1,0 +1,212 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Auto: Get To Auto Zone (Bump)" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="924" y="407"/>
+	</widget>
+	<widget field="Reset Gyro Yaw" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="924" y="373"/>
+	</widget>
+	<widget field="Auto: Get Two (Short)" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="924" y="339"/>
+	</widget>
+	<widget field="To Limit" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="152" y="34"/>
+	</widget>
+	<widget field="Auto: Get Recycle Bin" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="924" y="305"/>
+	</widget>
+	<widget field="Auto: To Auto Zone" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="349" y="401"/>
+	</widget>
+	<widget field="Turn to Heading -45 Deg" type="PIDCommand" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="152" y="0"/>
+	</widget>
+	<widget field="IMU Yaw" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="419"/>
+	</widget>
+	<widget field="Turn 90 Deg" type="PIDCommand" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="0" y="385"/>
+	</widget>
+	<widget field="IMU IsMagneticDisturbance" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="364"/>
+	</widget>
+	<widget field="IMU IsRotating" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="343"/>
+	</widget>
+	<widget field="IMU IsCalibrating" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="322"/>
+	</widget>
+	<widget field="Drive 2 feet" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="0" y="288"/>
+	</widget>
+	<widget field="IMU IsConnected" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="267"/>
+	</widget>
+	<widget field="IMU IsMagnetometerCalibrated" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="246"/>
+	</widget>
+	<widget field="IMU Fused Heading" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="225"/>
+	</widget>
+	<widget field="IMU IsMoving" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="204"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.VideoStreamViewerExtension">
+		<location x="368" y="1"/>
+		<width>555</width>
+		<height>399</height>
+	</static-widget>
+	<widget field="Auto: Get One (Short)" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1164" y="171"/>
+	</widget>
+	<widget field="Auto: Do Nothing" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1188" y="143"/>
+	</widget>
+	<widget field="Auto: Get One (Long)" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1167" y="115"/>
+	</widget>
+	<widget field="Drive mode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1209" y="0"/>
+		<height>20</height>
+	</widget>
+	<widget field="VerticalLift kP" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1" y="0"/>
+	</widget>
+	<widget field="Level1" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="33" y="183"/>
+		<height>20</height>
+	</widget>
+	<widget field="Level2" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="33" y="162"/>
+	</widget>
+	<widget field="Level3" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="33" y="141"/>
+	</widget>
+	<widget field="Level4" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="33" y="120"/>
+	</widget>
+	<widget field="Level5" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="33" y="99"/>
+	</widget>
+	<widget field="Level6" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="33" y="78"/>
+		<height>20</height>
+	</widget>
+	<widget field="Close Gripper" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="962" y="79"/>
+	</widget>
+	<widget field="Send Properties" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1195" y="452"/>
+	</widget>
+	<widget field="Go to Level 6" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="963" y="111"/>
+	</widget>
+	<widget field="VerticalLift position" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1173" y="63"/>
+	</widget>
+	<widget field="Sideway Encoder Position" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1141" y="42"/>
+	</widget>
+	<widget field="Go to Level 5" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="963" y="143"/>
+	</widget>
+	<widget field="Go to Level 4" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="963" y="175"/>
+	</widget>
+	<widget field="Go to Level 3" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="963" y="207"/>
+	</widget>
+	<widget field="Forward Encoder Position" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1141" y="21"/>
+	</widget>
+	<widget field="Go to Level 2" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="963" y="239"/>
+	</widget>
+	<widget field="Gyro Angle" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1210" y="84"/>
+	</widget>
+	<widget field="Password" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="884" y="459"/>
+	</widget>
+	<widget field="Gripper to Middle" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="945" y="31"/>
+	</widget>
+	<widget field="Go to Level 1" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="963" y="271"/>
+	</widget>
+	<widget field="Pull Properties" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="1050" y="452"/>
+	</widget>
+	<widget field="Open Gripper" type="Command" class="edu.wpi.first.smartdashboard.gui.elements.Command">
+		<location x="962" y="0"/>
+	</widget>
+	<widget field="VerticalLift kD" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="42"/>
+	</widget>
+	<widget field="VerticalLift kI" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="3" y="21"/>
+	</widget>
+	<widget field="Log" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="1" y="459"/>
+		<width>881</width>
+		<height>20</height>
+	</widget>
+</dashboard>
+<live-window>
+	<widget field="IMU" type="LW Subsystem" class="edu.wpi.first.smartdashboard.livewindow.elements.LWSubsystem">
+		<widget field="Gyro" type="Gyro" class="edu.wpi.first.smartdashboard.gui.elements.Compass">
+			<location x="6" y="16"/>
+			<height>150</height>
+			<width>250</width>
+		</widget>
+		<location x="357" y="168"/>
+		<width>262</width>
+		<height>173</height>
+	</widget>
+	<widget field="Gripper" type="LW Subsystem" class="edu.wpi.first.smartdashboard.livewindow.elements.LWSubsystem">
+		<widget field="Contact Switch Left" type="Digital Input" class="edu.wpi.first.smartdashboard.livewindow.elements.DigitalInputDisplay">
+			<location x="6" y="16"/>
+			<height>20</height>
+			<width>124</width>
+		</widget>
+		<widget field="Reed Switch" type="Digital Input" class="edu.wpi.first.smartdashboard.livewindow.elements.DigitalInputDisplay">
+			<location x="6" y="36"/>
+			<height>20</height>
+			<width>124</width>
+		</widget>
+		<widget field="Forks" type="Double Solenoid" class="edu.wpi.first.smartdashboard.livewindow.elements.RelayController">
+			<location x="6" y="56"/>
+			<height>20</height>
+			<width>124</width>
+		</widget>
+		<widget field="Contact Switch Right" type="Digital Input" class="edu.wpi.first.smartdashboard.livewindow.elements.DigitalInputDisplay">
+			<location x="6" y="76"/>
+			<height>20</height>
+			<width>124</width>
+		</widget>
+		<location x="0" y="160"/>
+		<width>136</width>
+		<height>103</height>
+	</widget>
+	<widget field="PID Drivetrain" type="LW Subsystem" class="edu.wpi.first.smartdashboard.livewindow.elements.LWSubsystem">
+		<widget field="Turn" type="PIDController" class="edu.wpi.first.smartdashboard.gui.elements.PIDEditor">
+			<location x="6" y="16"/>
+			<height>121</height>
+			<width>135</width>
+		</widget>
+		<widget field="Drive" type="PIDController" class="edu.wpi.first.smartdashboard.gui.elements.PIDEditor">
+			<location x="6" y="137"/>
+			<height>121</height>
+			<width>135</width>
+		</widget>
+		<widget field="Drive_Sideways" type="PIDController" class="edu.wpi.first.smartdashboard.gui.elements.PIDEditor">
+			<location x="6" y="258"/>
+			<height>121</height>
+			<width>135</width>
+		</widget>
+		<location x="856" y="23"/>
+		<width>147</width>
+		<height>431</height>
+	</widget>
+</live-window>
+</xml>
